@@ -16,7 +16,7 @@ class User(UserMixin,db.Model):
     email = db.Column(db.String(200))
     password = db.Column(db.String(200))
 
-
+#test
 
 @login_manager.user_loader
 def get(id):
